@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Regression">
+              <span class="suite-name border-failed">Regression</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Regression">
+                    <span>C:\Automation\WorkSpace\WorkSpace_Photon\SeleniumTraining_1_MVN\src\test\resources\runner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Regression">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Regression">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Regression">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Regression">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Regression">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Regression">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Regression" class="hide-methods failed suite-Regression"> (hide)</a> <!-- hide-methods failed suite-Regression -->
+                      <a href="#" panel-name="suite-Regression" class="show-methods failed suite-Regression"> (show)</a> <!-- show-methods failed suite-Regression -->
+                    </span>
+                    <div class="method-list-content failed suite-Regression">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="co.in.bymat.projectName.moduleName.testCases.LoginToMyStore4" hash-for-method="loginToMyStore({Name=Mandar, Page_Title=My Store, Email_ID=mandar@12345, Page_Text=CREATE AN ACCOUNT, City=Hyd, Sr ...)">loginToMyStore({Name=Mandar, Page_Title=My Store, Email_ID=mandar@12345, Page_Text=CREATE AN ACCOUNT, City=Hyd, Sr ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Regression -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Regression" class="hide-methods passed suite-Regression"> (hide)</a> <!-- hide-methods passed suite-Regression -->
+                      <a href="#" panel-name="suite-Regression" class="show-methods passed suite-Regression"> (show)</a> <!-- show-methods passed suite-Regression -->
+                    </span>
+                    <div class="method-list-content passed suite-Regression">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="co.in.bymat.projectName.moduleName.testCases.LoginToMyStore" hash-for-method="loginToMyStore({Name=Rahul, Page_Title=My Store, Email_ID=test@12345, Page_Text=CREATE AN ACCOUNT, City=Pune, Sr No...)">loginToMyStore({Name=Rahul, Page_Title=My Store, Email_ID=test@12345, Page_Text=CREATE AN ACCOUNT, City=Pune, Sr No...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="co.in.bymat.projectName.moduleName.testCases.LoginToMyStore6" hash-for-method="loginToMyStore({Name=fail, Page_Title=My Store, Email_ID=fail@12345, Page_Text=CREATE AN ACCOUNT, City=not, Sr No=1...)">loginToMyStore({Name=fail, Page_Title=My Store, Email_ID=fail@12345, Page_Text=CREATE AN ACCOUNT, City=not, Sr No=1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="co.in.bymat.projectName.moduleName.testCases.LoginToMyStore5" hash-for-method="loginToMyStore({Name=Siva, Page_Title=My Store, Email_ID=siva@12345, Page_Text=CREATE AN ACCOUNT, City=chn, Sr No=1...)">loginToMyStore({Name=Siva, Page_Title=My Store, Email_ID=siva@12345, Page_Text=CREATE AN ACCOUNT, City=chn, Sr No=1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="co.in.bymat.projectName.moduleName.testCases.LoginToMyStore2" hash-for-method="loginToMyStore({Name=Lipika, Page_Title=My Store, Email_ID=lipi@12345, Page_Text=CREATE AN ACCOUNT, City=Odisha, Sr...)">loginToMyStore({Name=Lipika, Page_Title=My Store, Email_ID=lipi@12345, Page_Text=CREATE AN ACCOUNT, City=Odisha, Sr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="co.in.bymat.projectName.moduleName.testCases.LoginToMyStore3" hash-for-method="loginToMyStore({Name=Deepali, Page_Title=My Store, Email_ID=dipali@12345, Page_Text=CREATE AN ACCOUNT, City=Noida, ...)">loginToMyStore({Name=Deepali, Page_Title=My Store, Email_ID=dipali@12345, Page_Text=CREATE AN ACCOUNT, City=Noida, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Regression -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Regression" class="panel Regression">
+          <div class="suite-Regression-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginToMyStore({Name=Mandar, Page_Title=My Store, Email_ID=mandar@12345, Page_Text=CREATE AN ACCOUNT, City=Hyd, Sr ...)">
+                  </a> <!-- loginToMyStore({Name=Mandar, Page_Title=My Store, Email_ID=mandar@12345, Page_Text=CREATE AN ACCOUNT, City=Hyd, Sr ...) -->
+                  <span class="method-name">loginToMyStore</span>
+                  <span class="parameters">({Name=Mandar, Page_Title=My Store, Email_ID=mandar@12345, Page_Text=CREATE AN ACCOUNT, City=Hyd, Sr No=1, ContactNo=9155436788})</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.
+	at org.openqa.selenium.By$ByXPath.&lt;init&gt;(By.java:339)
+	at org.openqa.selenium.By.xpath(By.java:92)
+	at co.in.bymat.projectName.moduleName.utility.CommonMethods.getText(CommonMethods.java:37)
+	at co.in.bymat.projectName.moduleName.testCases.LoginToMyStore4.loginToMyStore(LoginToMyStore4.java:29)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-failed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore5</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginToMyStore({Name=Siva, Page_Title=My Store, Email_ID=siva@12345, Page_Text=CREATE AN ACCOUNT, City=chn, Sr No=1...)">
+                  </a> <!-- loginToMyStore({Name=Siva, Page_Title=My Store, Email_ID=siva@12345, Page_Text=CREATE AN ACCOUNT, City=chn, Sr No=1...) -->
+                  <span class="method-name">loginToMyStore</span>
+                  <span class="parameters">({Name=Siva, Page_Title=My Store, Email_ID=siva@12345, Page_Text=CREATE AN ACCOUNT, City=chn, Sr No=1, ContactNo=9155436788})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginToMyStore({Name=Lipika, Page_Title=My Store, Email_ID=lipi@12345, Page_Text=CREATE AN ACCOUNT, City=Odisha, Sr...)">
+                  </a> <!-- loginToMyStore({Name=Lipika, Page_Title=My Store, Email_ID=lipi@12345, Page_Text=CREATE AN ACCOUNT, City=Odisha, Sr...) -->
+                  <span class="method-name">loginToMyStore</span>
+                  <span class="parameters">({Name=Lipika, Page_Title=My Store, Email_ID=lipi@12345, Page_Text=CREATE AN ACCOUNT, City=Odisha, Sr No=1, ContactNo=9123577880})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginToMyStore({Name=Rahul, Page_Title=My Store, Email_ID=test@12345, Page_Text=CREATE AN ACCOUNT, City=Pune, Sr No...)">
+                  </a> <!-- loginToMyStore({Name=Rahul, Page_Title=My Store, Email_ID=test@12345, Page_Text=CREATE AN ACCOUNT, City=Pune, Sr No...) -->
+                  <span class="method-name">loginToMyStore</span>
+                  <span class="parameters">({Name=Rahul, Page_Title=My Store, Email_ID=test@12345, Page_Text=CREATE AN ACCOUNT, City=Pune, Sr No=1, ContactNo=9134456778})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginToMyStore({Name=Deepali, Page_Title=My Store, Email_ID=dipali@12345, Page_Text=CREATE AN ACCOUNT, City=Noida, ...)">
+                  </a> <!-- loginToMyStore({Name=Deepali, Page_Title=My Store, Email_ID=dipali@12345, Page_Text=CREATE AN ACCOUNT, City=Noida, ...) -->
+                  <span class="method-name">loginToMyStore</span>
+                  <span class="parameters">({Name=Deepali, Page_Title=My Store, Email_ID=dipali@12345, Page_Text=CREATE AN ACCOUNT, City=Noida, Sr No=1, ContactNo=9158665788})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore6</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginToMyStore({Name=fail, Page_Title=My Store, Email_ID=fail@12345, Page_Text=CREATE AN ACCOUNT, City=not, Sr No=1...)">
+                  </a> <!-- loginToMyStore({Name=fail, Page_Title=My Store, Email_ID=fail@12345, Page_Text=CREATE AN ACCOUNT, City=not, Sr No=1...) -->
+                  <span class="method-name">loginToMyStore</span>
+                  <span class="parameters">({Name=fail, Page_Title=My Store, Email_ID=fail@12345, Page_Text=CREATE AN ACCOUNT, City=not, Sr No=1, ContactNo=9155436788})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+        </div> <!-- panel Regression -->
+        <div panel-name="test-xml-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Automation\WorkSpace\WorkSpace_Photon\SeleniumTraining_1_MVN\src\test\resources\runner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Regression&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;co.in.bymat.projectName.moduleName.customListeners.Listners_1&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test functionalities&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.in.bymat.projectName.moduleName.testCases.LoginToMyStore&quot;/&gt;
+      &lt;class name=&quot;co.in.bymat.projectName.moduleName.testCases.LoginToMyStore2&quot;/&gt;
+      &lt;class name=&quot;co.in.bymat.projectName.moduleName.testCases.LoginToMyStore3&quot;/&gt;
+      &lt;class name=&quot;co.in.bymat.projectName.moduleName.testCases.LoginToMyStore4&quot;/&gt;
+      &lt;class name=&quot;co.in.bymat.projectName.moduleName.testCases.LoginToMyStore5&quot;/&gt;
+      &lt;class name=&quot;co.in.bymat.projectName.moduleName.testCases.LoginToMyStore6&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test functionalities --&gt;
+&lt;/suite&gt; &lt;!-- Regression --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test functionalities (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Regression');
+function tableData_Regression() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginToMyStore')
+data.setCell(0, 2, 'co.in.bymat.projectName.moduleName.testCases.LoginToMyStore2')
+data.setCell(0, 3, 23731);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginToMyStore')
+data.setCell(1, 2, 'co.in.bymat.projectName.moduleName.testCases.LoginToMyStore')
+data.setCell(1, 3, 20845);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginToMyStore')
+data.setCell(2, 2, 'co.in.bymat.projectName.moduleName.testCases.LoginToMyStore6')
+data.setCell(2, 3, 18896);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginToMyStore')
+data.setCell(3, 2, 'co.in.bymat.projectName.moduleName.testCases.LoginToMyStore3')
+data.setCell(3, 3, 17706);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginToMyStore')
+data.setCell(4, 2, 'co.in.bymat.projectName.moduleName.testCases.LoginToMyStore5')
+data.setCell(4, 3, 17348);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginToMyStore')
+data.setCell(5, 2, 'co.in.bymat.projectName.moduleName.testCases.LoginToMyStore4')
+data.setCell(5, 3, 15811);
+window.suiteTableData['Regression']= { tableData: data, tableDiv: 'times-div-Regression'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Regression">
+              </div> <!-- times-div-Regression -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">10 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore5</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialisation</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialisation</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore3</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialisation</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore6</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialisation</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore4</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialisation</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initialisation</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">testCaseName</span>
+                <span class="method-start">869 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginToMyStore({Name=Rahul, Page_Title=My Store, Email_ID=test@12345, Page_Text=CREATE AN ACCOUNT, City=Pune, Sr No...)</span>
+                <span class="method-start">904 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testCaseName</span>
+                <span class="method-start">24779 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginToMyStore({Name=Lipika, Page_Title=My Store, Email_ID=lipi@12345, Page_Text=CREATE AN ACCOUNT, City=Odisha, Sr...)</span>
+                <span class="method-start">24788 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore3</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testCaseName</span>
+                <span class="method-start">51520 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginToMyStore({Name=Deepali, Page_Title=My Store, Email_ID=dipali@12345, Page_Text=CREATE AN ACCOUNT, City=Noida, ...)</span>
+                <span class="method-start">51524 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore4</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testCaseName</span>
+                <span class="method-start">72250 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginToMyStore({Name=Mandar, Page_Title=My Store, Email_ID=mandar@12345, Page_Text=CREATE AN ACCOUNT, City=Hyd, Sr ...)</span>
+                <span class="method-start">72254 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore5</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testCaseName</span>
+                <span class="method-start">91619 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginToMyStore({Name=Siva, Page_Title=My Store, Email_ID=siva@12345, Page_Text=CREATE AN ACCOUNT, City=chn, Sr No=1...)</span>
+                <span class="method-start">91624 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore6</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testCaseName</span>
+                <span class="method-start">111959 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginToMyStore({Name=fail, Page_Title=My Store, Email_ID=fail@12345, Page_Text=CREATE AN ACCOUNT, City=not, Sr No=1...)</span>
+                <span class="method-start">111963 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">133901 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="10" total="16" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="133009" started-at="2021-08-15T22:09:35 IST" finished-at="2021-08-15T22:11:48 IST">
+    <groups>
+    </groups>
+    <test name="Test functionalities" duration-ms="133009" started-at="2021-08-15T22:09:35 IST" finished-at="2021-08-15T22:11:48 IST">
+      <class name="co.in.bymat.projectName.moduleName.testCases.LoginToMyStore">
+        <test-method status="PASS" signature="initialisation()[pri:0, instance:co.in.bymat.projectName.moduleName.testCases.LoginToMyStore@1060b431]" name="initialisation" is-config="true" duration-ms="849" started-at="2021-08-15T22:09:34 IST" finished-at="2021-08-15T22:09:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialisation -->
+        <test-method status="PASS" signature="testCaseName()[pri:0, instance:co.in.bymat.projectName.moduleName.testCases.LoginToMyStore@1060b431]" name="testCaseName" is-config="true" duration-ms="0" started-at="2021-08-15T22:09:35 IST" finished-at="2021-08-15T22:09:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseName -->
+        <test-method status="PASS" signature="loginToMyStore(java.util.Hashtable)[pri:0, instance:co.in.bymat.projectName.moduleName.testCases.LoginToMyStore@1060b431]" name="loginToMyStore" duration-ms="20845" started-at="2021-08-15T22:09:35 IST" data-provider="data_Collection" finished-at="2021-08-15T22:09:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=Rahul, Page_Title=My Store, Email_ID=test@12345, Page_Text=CREATE AN ACCOUNT, City=Pune, Sr No=1, ContactNo=9134456778}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToMyStore -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:co.in.bymat.projectName.moduleName.testCases.LoginToMyStore@1060b431]" name="endReport" is-config="true" duration-ms="403" started-at="2021-08-15T22:11:48 IST" finished-at="2021-08-15T22:11:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- co.in.bymat.projectName.moduleName.testCases.LoginToMyStore -->
+      <class name="co.in.bymat.projectName.moduleName.testCases.LoginToMyStore2">
+        <test-method status="PASS" signature="testCaseName()[pri:0, instance:co.in.bymat.projectName.moduleName.testCases.LoginToMyStore2@6a1aab78]" name="testCaseName" is-config="true" duration-ms="5" started-at="2021-08-15T22:09:59 IST" finished-at="2021-08-15T22:09:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseName -->
+        <test-method status="PASS" signature="loginToMyStore(java.util.Hashtable)[pri:0, instance:co.in.bymat.projectName.moduleName.testCases.LoginToMyStore2@6a1aab78]" name="loginToMyStore" duration-ms="23731" started-at="2021-08-15T22:09:59 IST" data-provider="data_Collection" finished-at="2021-08-15T22:10:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=Lipika, Page_Title=My Store, Email_ID=lipi@12345, Page_Text=CREATE AN ACCOUNT, City=Odisha, Sr No=1, ContactNo=9123577880}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToMyStore -->
+      </class> <!-- co.in.bymat.projectName.moduleName.testCases.LoginToMyStore2 -->
+      <class name="co.in.bymat.projectName.moduleName.testCases.LoginToMyStore3">
+        <test-method status="PASS" signature="testCaseName()[pri:0, instance:co.in.bymat.projectName.moduleName.testCases.LoginToMyStore3@462d5aee]" name="testCaseName" is-config="true" duration-ms="0" started-at="2021-08-15T22:10:25 IST" finished-at="2021-08-15T22:10:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseName -->
+        <test-method status="PASS" signature="loginToMyStore(java.util.Hashtable)[pri:0, instance:co.in.bymat.projectName.moduleName.testCases.LoginToMyStore3@462d5aee]" name="loginToMyStore" duration-ms="17706" started-at="2021-08-15T22:10:25 IST" data-provider="data_Collection" finished-at="2021-08-15T22:10:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=Deepali, Page_Title=My Store, Email_ID=dipali@12345, Page_Text=CREATE AN ACCOUNT, City=Noida, Sr No=1, ContactNo=9158665788}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToMyStore -->
+      </class> <!-- co.in.bymat.projectName.moduleName.testCases.LoginToMyStore3 -->
+      <class name="co.in.bymat.projectName.moduleName.testCases.LoginToMyStore4">
+        <test-method status="PASS" signature="testCaseName()[pri:0, instance:co.in.bymat.projectName.moduleName.testCases.LoginToMyStore4@69b0fd6f]" name="testCaseName" is-config="true" duration-ms="0" started-at="2021-08-15T22:10:46 IST" finished-at="2021-08-15T22:10:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseName -->
+        <test-method status="FAIL" signature="loginToMyStore(java.util.Hashtable)[pri:0, instance:co.in.bymat.projectName.moduleName.testCases.LoginToMyStore4@69b0fd6f]" name="loginToMyStore" duration-ms="15811" started-at="2021-08-15T22:10:46 IST" data-provider="data_Collection" finished-at="2021-08-15T22:11:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=Mandar, Page_Title=My Store, Email_ID=mandar@12345, Page_Text=CREATE AN ACCOUNT, City=Hyd, Sr No=1, ContactNo=9155436788}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Cannot find elements when the XPath is null.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.
+at org.openqa.selenium.By$ByXPath.<init>(By.java:339)
+at org.openqa.selenium.By.xpath(By.java:92)
+at co.in.bymat.projectName.moduleName.utility.CommonMethods.getText(CommonMethods.java:37)
+at co.in.bymat.projectName.moduleName.testCases.LoginToMyStore4.loginToMyStore(LoginToMyStore4.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToMyStore -->
+      </class> <!-- co.in.bymat.projectName.moduleName.testCases.LoginToMyStore4 -->
+      <class name="co.in.bymat.projectName.moduleName.testCases.LoginToMyStore5">
+        <test-method status="PASS" signature="testCaseName()[pri:0, instance:co.in.bymat.projectName.moduleName.testCases.LoginToMyStore5@757942a1]" name="testCaseName" is-config="true" duration-ms="0" started-at="2021-08-15T22:11:05 IST" finished-at="2021-08-15T22:11:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseName -->
+        <test-method status="PASS" signature="loginToMyStore(java.util.Hashtable)[pri:0, instance:co.in.bymat.projectName.moduleName.testCases.LoginToMyStore5@757942a1]" name="loginToMyStore" duration-ms="17348" started-at="2021-08-15T22:11:05 IST" data-provider="data_Collection" finished-at="2021-08-15T22:11:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=Siva, Page_Title=My Store, Email_ID=siva@12345, Page_Text=CREATE AN ACCOUNT, City=chn, Sr No=1, ContactNo=9155436788}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToMyStore -->
+      </class> <!-- co.in.bymat.projectName.moduleName.testCases.LoginToMyStore5 -->
+      <class name="co.in.bymat.projectName.moduleName.testCases.LoginToMyStore6">
+        <test-method status="PASS" signature="testCaseName()[pri:0, instance:co.in.bymat.projectName.moduleName.testCases.LoginToMyStore6@4a87761d]" name="testCaseName" is-config="true" duration-ms="0" started-at="2021-08-15T22:11:26 IST" finished-at="2021-08-15T22:11:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseName -->
+        <test-method status="PASS" signature="loginToMyStore(java.util.Hashtable)[pri:0, instance:co.in.bymat.projectName.moduleName.testCases.LoginToMyStore6@4a87761d]" name="loginToMyStore" duration-ms="18896" started-at="2021-08-15T22:11:26 IST" data-provider="data_Collection" finished-at="2021-08-15T22:11:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=fail, Page_Title=My Store, Email_ID=fail@12345, Page_Text=CREATE AN ACCOUNT, City=not, Sr No=1, ContactNo=9155436788}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToMyStore -->
+      </class> <!-- co.in.bymat.projectName.moduleName.testCases.LoginToMyStore6 -->
+    </test> <!-- Test functionalities -->
+  </suite> <!-- Regression -->
+</testng-results>

@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Regression</th></tr>
+<tr><td><a href="#t0">Test functionalities</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">133,009</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Regression</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test functionalities &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore4</td><td><a href="#m0">loginToMyStore</a></td><td rowspan="1">1629045646607</td><td rowspan="1">15811</td></tr><tr><th colspan="4">Test functionalities &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore</td><td><a href="#m1">loginToMyStore</a></td><td rowspan="1">1629045575257</td><td rowspan="1">20845</td></tr><tr class="passedodd"><td rowspan="1">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore2</td><td><a href="#m2">loginToMyStore</a></td><td rowspan="1">1629045599141</td><td rowspan="1">23731</td></tr><tr class="passedeven"><td rowspan="1">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore3</td><td><a href="#m3">loginToMyStore</a></td><td rowspan="1">1629045625877</td><td rowspan="1">17706</td></tr><tr class="passedodd"><td rowspan="1">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore5</td><td><a href="#m4">loginToMyStore</a></td><td rowspan="1">1629045665977</td><td rowspan="1">17348</td></tr><tr class="passedeven"><td rowspan="1">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore6</td><td><a href="#m5">loginToMyStore</a></td><td rowspan="1">1629045686316</td><td rowspan="1">18896</td></tr></tbody>
+</table>
+<h2>Test functionalities</h2><h3 id="m0">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore4#loginToMyStore</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Name=Mandar, Page_Title=My Store, Email_ID=mandar@12345, Page_Text=CREATE AN ACCOUNT, City=Hyd, Sr No=1, ContactNo=9155436788}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.
+	at org.openqa.selenium.By$ByXPath.&lt;init&gt;(By.java:339)
+	at org.openqa.selenium.By.xpath(By.java:92)
+	at co.in.bymat.projectName.moduleName.utility.CommonMethods.getText(CommonMethods.java:37)
+	at co.in.bymat.projectName.moduleName.testCases.LoginToMyStore4.loginToMyStore(LoginToMyStore4.java:29)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore#loginToMyStore</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Name=Rahul, Page_Title=My Store, Email_ID=test@12345, Page_Text=CREATE AN ACCOUNT, City=Pune, Sr No=1, ContactNo=9134456778}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore2#loginToMyStore</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Name=Lipika, Page_Title=My Store, Email_ID=lipi@12345, Page_Text=CREATE AN ACCOUNT, City=Odisha, Sr No=1, ContactNo=9123577880}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore3#loginToMyStore</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Name=Deepali, Page_Title=My Store, Email_ID=dipali@12345, Page_Text=CREATE AN ACCOUNT, City=Noida, Sr No=1, ContactNo=9158665788}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore5#loginToMyStore</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Name=Siva, Page_Title=My Store, Email_ID=siva@12345, Page_Text=CREATE AN ACCOUNT, City=chn, Sr No=1, ContactNo=9155436788}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">co.in.bymat.projectName.moduleName.testCases.LoginToMyStore6#loginToMyStore</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Name=fail, Page_Title=My Store, Email_ID=fail@12345, Page_Text=CREATE AN ACCOUNT, City=not, Sr No=1, ContactNo=9155436788}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+
+ <listeners>
+    <listener class-name="co.in.bymat.projectName.moduleName.customListeners.Listners_1" />
+  </listeners>
+
+  <test thread-count="5" name="Test functionalities">
+    <classes>
+    <class name="co.in.bymat.projectName.moduleName.testCases.LoginToMyStore"/> 
+      <class name="co.in.bymat.projectName.moduleName.testCases.LoginToMyStore2"/> 
+      <class name="co.in.bymat.projectName.moduleName.testCases.LoginToMyStore3"/> 
+      <class name="co.in.bymat.projectName.moduleName.testCases.LoginToMyStore4"/>
+      <class name="co.in.bymat.projectName.moduleName.testCases.LoginToMyStore5"/>
+      <class name="co.in.bymat.projectName.moduleName.testCases.LoginToMyStore6"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
